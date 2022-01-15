@@ -32,7 +32,7 @@
 }
 
 .product-category{
-    padding:0 10vw;
+    padding:0 7vw;
     font-size: 30px;
     font-weight: 500;
     margin-bottom:40px ;
@@ -40,10 +40,12 @@
 }
 
 .product-container{
-    padding: 0 10vw;
+    padding: 0 7vw;
     display:flex;
+    flex-flow: row wrap;
     overflow-x: auto;
     scroll-behavior: smooth;
+    justify-content: flex-start ;
 }
 
 .product-container::-webkit-scrollbar{
