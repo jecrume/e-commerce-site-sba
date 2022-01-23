@@ -43,7 +43,8 @@
 
 .details{
     width:50%;
-}
+    
+    }
 
 .details .product-brand{
     font-size: 30px;
@@ -61,7 +62,50 @@
     font-size: 30px;   
 }
 
-.product.actual-price{
+.product-actual-price{
     font: size 30px;
-    
+    opacity:0.5;
+    text-decoration: line-through;
+    margin: 0 20px;
+    font-weight: 300;
 }
+
+.product-discount{
+    color:#ff7d7d;
+    font-size: 20px;
+}
+
+button{
+    width:48%;
+    padding: 20px;
+    background:none;
+    border-radius: 5px;
+    border: 1px solid #383838;
+    color: #383838;
+    font-size:20px;
+    cursor:pointer;
+    margin: 20px 0;
+
+}
+
+
+.btn-cart-btn{
+    margin-right: 2%;
+    background:#383838;
+    color:#fff;
+}
+
+.detailed-des{
+    padding: 0 10vw;
+}
+
+.heading{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.des{
+    color: #383838;
+    line-height: 25px;
+}
+
