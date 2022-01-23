@@ -9,3 +9,14 @@
     margin-bottom: 40px;
     padding:0 10vw;
 }
+
+span{
+    font-weight:bolder;
+}
+
+.product-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    height:auto;
+    row-gap: 40px;
+}

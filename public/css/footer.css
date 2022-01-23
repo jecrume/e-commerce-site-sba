@@ -48,6 +48,41 @@ footer{
     color: #fff;
 }
 
+
+.form-desc{
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.form-label{
+    color:#fff;
+}
+
+.form-input{
+    width:15%;
+    height:40px;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid d1d1d1;
+    background:none;
+    color: #a9a9aa;
+    outline:none;
+
+}
+
+.btn-popup{
+    width:10%;
+    height:40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:#a9a9aa;
+    color: #fff;
+    font-size:15px;
+    border-radius: 10px;
+}
 .footer-title, .about{
     color: rgba(255, 255,255, 0.75);
     margin: 20px 0;

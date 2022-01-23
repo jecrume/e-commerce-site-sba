@@ -43,8 +43,26 @@ const createFooter = () => {
 
                 
             </div>
+
+           
             
         </div>
+
+        <div class="form-popup">
+        <form action="#" method="post" class="form-container">
+            <h3 class="form-desc">Please Sign Up For Our Email Notifications For Special Offers, New Product Releases, and Discounts</h3>
+
+            <label class="form-label" for="Name"><b>Name:</b></label>
+            <input class= "form-input"type="text" placeholder="Enter Name" name="name" required>
+
+            <label class="form-label" for="email"><b>Email:</b></label>
+            <input class = "form-input"type="email" placeholder="Enter Email" name="email" title="Please enter valid e-mail!"
+            pattern="(?:[a-z0-9!#$%&'*+/=?^_\x60{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_\x60{|}~-]+)*|\x22(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\x22)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+            
+            <button class="btn-popup" type="submit">Submit</button>
+        
+        </form>
+        </div> 
         <p class="footer-title">About Company</p>
         <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, nulla? Labore ab maxime soluta inventore
             doloribus temporibus minima incidunt est voluptates optio mollitia magnam, eaque reprehenderit alias hic autem
