@@ -20,8 +20,8 @@ const createNav = () => {
         </div>
         <ul class="links-container">
             <li class="link-item"><a href="#" class="link">Home</a></li>
-            <li class="link-item"><a href="#" class="link">Computers</a></li>
             <li class="link-item"><a href="#" class="link">Gaming</a></li>
+            <li class="link-item"><a href="#" class="link">Audio & Visual</a></li>
             <li class="link-item"><a href="#" class="link">3d Printing</a></li>
             <li class="link-item"><a href="#" class="link">Toys</a></li>
             
