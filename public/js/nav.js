@@ -5,7 +5,7 @@ const createNav = () => {
 
     nav.innerHTML = `
     <div class="nav">
-            <img src="img/GoGoGadgets-logo-new.png"  class="brand-logo" alt="">
+            <img src="img/GoGoGadgets-dark-logo.png"  class="brand-logo" alt="">
         
             <div class="nav-items">
 
