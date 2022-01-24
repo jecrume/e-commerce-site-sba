@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Go Gadgets: Create Account</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <img src="img/loader.gif" class="loader" alt="">
+
+    <div class="alert-box">
+        <img src="img/error.png" class="alert-img"alt="">
+        <p class="alert-msg">Error Message</p>
+    </div>
+
+    <div class="container">
+        <img src="img/GoGoGadgets-dark-logo.png" alt="" class="logo">
+        <div>
+            <input type="text" autocomplete="off" id="name" placeholder="Name">
+            <input type="email" autocomplete="off" id="email" placeholder="Enter Email">
+            <input type="password" autocomplete="off" id="password" placeholder="Enter Password">
+            <input type="text" autocomplete="off" id="number" placeholder="Phone Number">
+
+            <input type="checkbox" name="checkbox" id="terms-cond" class="checkbox">
+            <label for="terms-cond">I Agree to Go Go Gadgets <a href="#">Terms & Conditions</a></label>
+            <br>
+            <input type="checkbox" name="checkbox" id="notifications" class="checkbox">
+            <label for="notifications">Receive upcoming Offers and Discounts</label>
+            <button class="btn-submit">Create Account</button>
+        </div>
+        <a href="/login" class="link">Already have an Account? Log in here.</a>
+    </div>
+
+    <script src="js/form.js"></script>
+</body>
+</html>
