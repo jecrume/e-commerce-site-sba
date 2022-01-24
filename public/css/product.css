@@ -75,7 +75,7 @@
     font-size: 20px;
 }
 
-button{
+.btn-cart-btn, .btn-wishlist-btn{
     width:48%;
     padding: 20px;
     background:none;

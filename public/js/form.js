@@ -1,11 +1,12 @@
 const submitBtn = document.querySelector('.btn-submit');
 const name = document.querySelector('#name');
 const email = document.querySelector("#email");
-const pasword = document.querySelector("#password");
+const password = document.querySelector("#password");
 const number = document.querySelector("#number");
 const tnc = document.querySelector('#terms-cond');
 const notifications = document.querySelector('#notifications')
 const loader = document.querySelector('.loader');
+const profile = [];
 
 submitBtn.addEventListener('click', () => {
     if(name.value.length <3){
@@ -21,6 +22,18 @@ submitBtn.addEventListener('click', () => {
     }else{
         //submit form
         loader.getElementsByClassName.display = 'block';
+        let person = {
+                        name:name.value,
+                        email:email.value,
+                        password:password.value,
+                        phoneNumber:number.value,
+                        terms:tnc.value,
+                        notifications:notifications.value
+        };
+
+        profile.push(person);
+
+
 
     }
 })
